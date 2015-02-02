@@ -1,0 +1,140 @@
+body{
+    font:75%/133.33% Arial, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #464128;
+    text-align: center;
+}
+p{
+    font:1em/2em Arial, Verdana, sans-serif;;
+}
+
+abbr{
+    border-bottom: none;
+}
+a:link{
+    color: #464128;
+    text-decoration: underline;
+}
+
+a:hover, a:active{
+    color: #F19022;
+}
+
+a:visited{
+    color: #464128;
+}
+
+.page-wrapper{
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+}
+.intro{
+
+}
+
+header{
+    background: transparent url("images/bg.jpg") top left repeat-x;
+    background-size: contain;
+    width: 100%;
+    height: 160px;
+}
+
+header h1{
+    margin: 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+header h2{
+    margin: 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.summary{
+    width: 30%;
+    float: left;
+}
+
+
+.summary p:first-child::first-letter{
+    color:#65633A;
+    font: italic 5em garamond,georgia,serif;
+}
+.preamble{
+    width: 30%;
+    clear:both;
+    padding: 2em 0 0;
+}
+
+.summary p, .preamble p{
+    font-family: Apple Chancery,cursive;
+}
+
+.supporting{
+    position: absolute;
+    left: 32%;
+    width: 45%;
+    top: 160px;
+    border: 1px solid #848482;
+    padding: .5em;
+}
+
+.participation, .benefits, .requirements{
+    padding: 2em 0 0;
+}
+.sidebar{
+    position: absolute;
+    left: 80%;
+    top: 160px;
+}
+
+.sidebar h3{
+    color: #F19022;
+    font-size: 1.5em;
+    margin: 1.5em 0 0.7em;
+}
+
+.sidebar ul{
+    margin: 0;
+    padding: 0;
+}
+.sidebar li{
+    list-style: none;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+.sidebar li a:link{
+    display:block;
+}
+
+.sidebar li a.design-name{
+    font-weight: bold;
+}
+
+.sidebar li a.designer-name{
+    display: inline-block;
+    font-style: italic;
+}
+
+.sidebar a.designer-name:hover,.sidebar a.designer-name:active{
+    color: #F19022;
+}
+
+footer {
+    padding: 2em 0 0 0;
+    text-align: center;
+}
+
+footer a:link{
+    padding-right: 1em;
+    text-decoration: none;
+    font-weight: bold;
+}

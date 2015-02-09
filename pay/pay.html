@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>乐辅通会员支付中心</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/pay.css">
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/pay.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header class="pay_header">
+            <a class="logo" title="乐辅通会员支付中心" href="#">
+                <img id="logo_img" src="images/logo.png" title="乐辅通智能教学" alt="乐辅通智能教学"/>
+                <span class="header_title">
+                    乐辅通会员支付中心
+                    <span class="pay_url"> pay.vip.lft.com</span>
+                </span>
+            </a>
+            <div id="userinfo_header">
+                <span class="user_header">
+                    欢迎您！<span id="account">pengqin</span>
+                </span>
+            </div>
+        </header>
+        <div class="pay_top_menu">
+            <div class="top_menu_box">
+                <ul class="vip_menu">
+                    <li id="three_star" class="vips">
+                        <img class="star_pic" src="images/three_star.png" title="三星会员" alt="二星会员"/>
+                        <h4>三星会员</h4>
+                    </li>
+                </ul>
+            </div>
+            <div id="three_star_privilege" class="drop_down_privilege">
+                <p>三星会员特权：可使用乐辅通智能教学平台的全部功能</p>
+            </div>
+            <div class="privilege_comp">
+                <table class="drop_dwon_list">
+                    <tr>
+                        <td class="spe_pri">会员类型</td>
+                        <td class="ths_pri_val">三星会员</td>
+                    </tr>
+                    <tr>
+                        <td class="spe_pri">自主测试</td>
+                        <td class="ths_pri_val right">&radic;</td>
+                    </tr>
+                    <tr>
+                        <td class="spe_pri">考前总结</td>
+                        <td class="ths_pri_val right">&radic;</td>
+                    </tr>
+                    <tr>
+                        <td class="spe_pri">考前冲刺</td>
+                        <td class="ths_pri_val right">&radic;</td>
+                    </tr>
+                    <tr>
+                        <td class="spe_pri">纠错本</td>
+                        <td class="ths_pri_val right">&radic;</td>
+                    </tr>
+                    <tr>
+                        <td class="spe_pri">智能答疑</td>
+                        <td class="ths_pri_val right">&radic;</td>
+                    </tr>
+                    <tr>
+                        <td class="spe_pri">教材直通车</td>
+                        <td class="ths_pri_val right">&radic;</td>
+                    </tr>
+                    <tr>
+                        <td class="spe_pri">十年中考</td>
+                        <td class="ths_pri_val right">&radic;</td>
+                    </tr>
+                    <tr>
+                        <td class="spe_pri">微课堂</td>
+                        <td class="ths_pri_val right">&radic;</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="pay_content">
+            <div id="ths_pay_list" class="pay_list">
+                <label class="pay_list_title">开通时长：</label>
+                <ul id="ths_pay_choice" class="pay_time_choice">
+                    <li class="pay_time">
+                    <span class="pay_month">按月</span>
+                        <em class="pay_month_money">60元/月</em>
+                        <i class="check_subnail"><img src="images/check.png" alt="选择该形式"/></i>
+                    </li>
+                    <li class="pay_time">
+                        <span class="pay_half_year">半年费</span>
+                        <em class="pay_half_year_money">300元</em>
+                        <i class="check_subnail"><img src="images/check.png" alt="选择该形式"/></i>
+                    </li>
+                    <li class="pay_time" id="default_pay_time">
+                        <span class="pay_year">年费</span>
+                        <em class="pay_year_money">480元</em>
+                        <i class="check_subnail"><img src="images/check.png" alt="选择该形式"/></i>
+                    </li>
+                </ul>
+            </div>
+            <p class="pay_total">
+                <label class="pay_list_title">应付金额：</label>
+                <em id="pay_money" class="pay_total_money">480元</em>
+            </p>
+           <p class="service_check">
+                <form id="pay_form" class="check_form">
+                    <input class="agree" type="checkbox" checked="checked">
+                    <span class="agree">同意</span>
+                    <a class="agree" target="_blank" href="#">&laquo;乐辅通智能教学平台收费协议&raquo;</a>
+                </form>
+            </p>
+            <p>
+                <a id="to_pay" class="pay_btn" href="">立刻充值</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 100%;
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+    color: #0A8CD2;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ul li{
+    display: inline-block;
+}
+ul,li,dl,dt,dd{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+.wrap{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    color: #333;
+    width: 60%;
+    float: left;
+}
+
+.logo:hover{
+    text-decoration: none;
+    cursor:pointer;
+}
+
+#logo_img{
+    width: 80px;
+    border: 0;
+}
+#userinfo_header{
+    float: right;
+    font-size: .8125em;
+    padding: 1em;
+}
+.header_title{
+    font-size:  1.5em;
+    font-style:italic;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: .625em;
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+.user_header{
+    padding-right: 1em;
+}
+
+.privilege_comp{
+    clear: both;
+    padding: 5px;
+    position: relative;
+}
+.drop_down_privilege{
+    padding: 5px 10px;
+    min-height: 5em;
+}
+
+.drop_dwon_list tr {
+    padding: 1em 0;
+
+}
+
+.drop_dwon_list td {
+    border: solid #ddd 1px;
+    padding: 10px;
+    text-align: center;
+}
+
+.right{
+    color: #27C04F;
+    font-weight: bolder;
+}
+
+@keyframes swing{
+    from{
+        transform: rotate(3deg);
+    }
+    20%{
+        transform: rotate(7deg);
+    }
+    60%{
+        transform: rotate(10deg);
+    }
+    80%{
+        transform: rotate(7deg);
+    }
+    to{
+        transform: rotate(3deg);
+    }
+}

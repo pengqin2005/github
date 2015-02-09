@@ -1,0 +1,146 @@
+.pay_header{
+    padding:5px 20%;
+    height: 84px;
+}
+
+.pay_url{
+    display: block;
+    font-size: .6667em;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.pay_top_menu{
+    position: relative;
+    padding: 0 20%;
+}
+
+.vip_menu{
+    list-style:none;
+    font-weight:bold;
+    margin-bottom:10px;
+    padding: 5px;
+    width: 100%;
+
+}
+.vip_menu li{
+    display: inline-block;
+    position:relative;
+    padding: .5em;
+    color:#fff;
+    background:#EC4545;
+    background:linear-gradient(to bottom, #F65B5B, #D82F2F);
+    text-shadow: 1px 0 1px #333;
+    width: 96%;
+}
+
+.vips h4 {
+    float: left;
+    padding: 0 10px;
+}
+
+.drop_dwon_list{
+    padding: 5px;
+    border: solid #ddd 1px;
+    position: relative;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.spe_pri{
+   width: 15%;
+}
+
+.tws_pri_val {
+    width: 43%;
+}
+
+.pay_content{
+    padding: 0 20%;
+}
+
+.pay_time_choice li{
+    padding: 5px 10px;
+    border: 2px solid #fff;
+    border-right: 2px solid #ccc;
+    margin-right: 10px;
+    vertical-align: top;
+    position: relative;
+}
+
+.pay_time:hover{
+    padding: 5px 10px;
+    border-right: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    cursor:pointer;
+}
+
+.pay_time.checked{
+    border: 2px solid #D82F2F;
+}
+
+.pay_total_money{
+    padding: 5px 10px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
+    margin-right: 10px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.pay_total_money:hover{
+    padding: 5px 10px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    cursor:pointer;
+    display: inline-block;
+}
+
+.pay_list_title{
+    float: left;
+    padding-top: 5px;
+}
+
+.check_form{
+    font-size: .825em;
+}
+
+.check_subnail img{
+    visibility: hidden;
+    display: block;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.pay_btn{
+    color: #fff;
+    background:#EC4545;
+    width: 5em;
+    padding: 5px;
+    text-align: center;
+    background:linear-gradient(to bottom, #F65B5B, #D82F2F);
+    margin: 2em 0;
+    display: block;
+}
+
+.pay_btn:hover{
+    background:linear-gradient(to bottom, #F65B5B, #B70511);
+    text-decoration: none;
+    text-shadow: 1px 0 1px #333;
+}
+
+img.star_pic{
+    width: 60px;
+    background: rgba(255,255,255,1);
+    float: left;
+    box-shadow: 1px 1px 2px #ccc;
+}
+
+img.star_pic:hover{
+    transform: rotate(3deg);
+    animation: swing 0.1s 3 ease-in;
+    cursor:pointer;
+    box-shadow: 1px 1px 2px #ccc;
+}
